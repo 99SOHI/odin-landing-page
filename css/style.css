@@ -1,0 +1,224 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+body {
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: #3882f6;
+  transition: 0.1s;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Header Section */
+
+header {
+  background-color: #1f2937;
+  padding: 2em;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85%;
+}
+
+.logo {
+  font-size: large;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 1em;
+}
+
+/* Header Section */
+
+/* ---- */
+
+/* Hero Section */
+
+.hero-section {
+  background-color: #1f2937;
+  padding: 48px;
+}
+
+.hero-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 85%;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1em;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-image {
+  width: 500px;
+  flex: 1;
+}
+
+.signup-button {
+  width: 96px;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+/* Hero Section */
+
+/* ---- */
+
+/* Information Section */
+
+.information-section {
+  padding: 7.5% 0;
+  text-align: center;
+  color: #1f2937;
+}
+
+.information-title {
+  margin: 0 2em auto;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.cards-container {
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  max-width: 85%;
+  justify-content: center;
+}
+
+.card {
+  max-width: 250px;
+}
+
+.card-image {
+  margin: 1em auto;
+  width: 200px;
+  height: 200px;
+  border: #3882f6 solid 5px;
+  border-radius: 10px;
+}
+
+/* Information Section */
+
+/* ---- */
+
+/* Quote Section */
+
+.quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 48px;
+}
+
+.quote-container {
+  margin: 48px auto;
+  max-width: 50%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quotee {
+  margin-top: 1em;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* Quote Section */
+
+/* ---- */
+
+/* "Wanna sign up?" Section */
+
+.signup-section {
+  padding: 7.5% 0;
+}
+
+.cta-card {
+  color: #f9faf8;
+  background-color: #3882f6;
+  margin: auto;
+  padding: 36px 64px;
+  max-width: 85%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.signup-button.cta {
+  border: #f9faf8 solid 2.5px;
+}
+
+/* "Wanna sign up?" Section */
+
+/* ---- */
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  padding: 48px 0;
+}
+
+.footer-text {
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+/* Footer */
